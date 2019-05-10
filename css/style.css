@@ -1,19 +1,12 @@
 body{
 	background-color:#f4f4f4;
-	color:#555555;
-
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:16px;
-	font-weight:normal;
-	/* Same as above */
-	font: normal 16px Arial, Helvetica, sans-serif;
 
 	line-height:1.6em;
 	margin:0;
 }
 
 header{
-    border-bottom: 3px  #ccc solid;
+    border-bottom: 3px  #a6a6a6 solid;
     padding: 2% 3% 3% 3% ;
 }
 
@@ -34,6 +27,8 @@ header{
 }
 
 .nav a:link{
+  font: normal 16px Arial, Helvetica, sans-serif;
+  float: right;
   margin: 0 2.5%;
 	text-decoration: none;
 	color: #555555;
@@ -52,12 +47,7 @@ header{
 	width:80%;
 	margin:auto;
 }
-.button{
-	background-color:#333;
-	color:#fff;
-	padding:10px 15px;
-	border:none;
-}
+
 
 .button:hover{
 	background:red;
@@ -71,4 +61,72 @@ header{
   border-radius: 10px;
   background-image: url('me.jpg');
   background-position: center;
+}
+
+.links a{
+  float: left;
+  margin: 20px auto;
+  width: 40%;
+  background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+  text-decoration: none;
+
+}
+
+
+aboutMe{
+  margin: 20px 0;
+}
+
+h2{
+   font: courier, sans-serif;
+  text-align: center;
+  border-bottom: 3px #a6a6a6 solid;
+
+}
+.text{
+  padding: 10px;
+  margin:auto;
+  font: 20px courier, sans-serif;
+
+}
+
+
+
+
+
+
+
+footer{
+  padding: 20px;
+  border-top: solid 3px #a6a6a6;
+  background-color: #9933ff;
+  position: relative;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerLinks{
+  float: right;
+  width: 30%;
+  margin:0;
+
+}
+
+.footerLinks a{
+  text-decoration: none;
+}
+
+.footerLinks p{
+  font: 16px courier, sans-serif;
+
+}
+.footerLinks img{
+  width: 50px;
+  height: 50px;
+
 }
