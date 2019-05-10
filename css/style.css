@@ -19,29 +19,33 @@ header{
 
 .nav{
   float: left;
-  margin: 0;
+  margin:auto;
+  padding: 0;
   width: 50%;
 }
 .nav p{
   font: normal 24px Arial, Helvetica, sans-serif;
-  color: black;
+  color: #555555;
   margin: 0;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
   font-weight: bold;
 
 }
 
-a{
-  padding-left: 5%;
-  margin: 0;
+.nav a:link{
+  margin: 0 2.5%;
 	text-decoration: none;
-	color:red;
+	color: #555555;
+
 }
 
-a:hover{
-	color:red;
+.nav a:hover{
+	font-weight: bold;
+  border-top: 1px black solid;
 }
 
-a:visited{
+.nav a:visited{
 	color:#000;
 }
 .container{
@@ -58,4 +62,13 @@ a:visited{
 .button:hover{
 	background:red;
 	color:#fff;
+}
+#image{
+  width:250px;
+	height:250px;
+  margin: 20px auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-image: url('me.jpg');
+  background-position: center;
 }
