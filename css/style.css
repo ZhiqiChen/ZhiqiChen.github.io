@@ -53,14 +53,16 @@ header{
 	background:red;
 	color:#fff;
 }
+
 #image{
-  width:250px;
-	height:250px;
-  margin: 20px auto;
-  border: 3px solid black;
-  border-radius: 10px;
-  background-image: url('me.jpg');
-  background-position: center;
+	object-fit: contain;
+	display: block;
+  width: 300px;
+	height:auto;
+	/* margin: 20px auto; */
+	border-radius: 10px;
+	border: 3px solid black;
+	margin: 20px auto;
 }
 
 .links a{
@@ -93,6 +95,9 @@ h2{
 
 }
 
+body{
+	margin-bottom: 200px;
+}
 
 
 
@@ -100,9 +105,10 @@ h2{
 
 
 footer{
+
   padding: 20px;
   border-top: solid 3px #a6a6a6;
-  background-color: #9933ff;
+  background-color: #00cccc;
   position: relative;
   position: fixed;
   left: 0;
